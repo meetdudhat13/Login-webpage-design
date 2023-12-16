@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background: url(/bg.jpg),rgba(0, 0, 0, 0.527);
+    background-size: cover;
+    background-blend-mode: overlay;
+    font-family: 'Figtree', sans-serif;
+}
+.container{
+    width: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    margin: 6rem auto;
+    width: 30%;
+    /* height: 60vh; */
+    background:linear-gradient(#1c4f2f,#63d471);
+    border-radius: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.col{
+    padding: 20px 10px;
+    margin: auto;
+    
+}
+.col h2{
+    padding: 10px;
+    color: #63d471;
+    letter-spacing: 2px;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+    font-size: 2.5rem;
+    margin: 0rem auto 2rem auto;
+}
+.login-detail{
+    margin: 4rem auto;
+
+}
+.login1{
+    width: 100%;
+    height: 100%;
+    margin: 30px auto;
+}
+.login-head{
+    text-align: left;
+    font-weight: 800;
+    color: #003713;
+    text-shadow: 2px 2px 5px #bcbcbc;
+    font-size: 1.3rem;
+    margin: 0.1rem 3rem;
+}
+.login-input{
+    width: 100%;
+}
+.login-input input{
+    width: 75%;
+    margin: auto;
+    font-size: 1rem;
+    color:rgb(193, 191, 191);
+    background-color: transparent;
+    padding: 0.2rem;
+    border: none;
+    letter-spacing: 1.5px;
+    border-bottom: 2px solid #193121;
+    transition: 0.3s;
+}
+.login-input input:focus{
+    outline: none;
+    transition: 0.3s;
+    border-bottom: 2px solid rgb(184, 184, 184);
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 3rem auto;
+}
+.subbtn{
+    margin: auto 10px;
+}
+.subbtn input{
+    padding: 7px 12px;
+    font-size: 1.1rem;
+    background-color: #225334;
+    border: none;
+    border-radius: 0.3rem;
+    color: #d6d6d6;
+    transition: 0.5s;
+    letter-spacing: 1px;
+}
+.subbtn input:hover{
+    background-color: #022b10;
+}
+.forgot{
+    margin: 0.5rem auto;
+}
